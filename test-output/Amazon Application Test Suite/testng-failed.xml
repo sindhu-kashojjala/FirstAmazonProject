@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Amazon Application Test Suite]" parallel="methods">
+  <parameter name="appURL" value="https://google.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.amazon.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="1" verbose="2" name="Amazon Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.amazontest.SignInPageTest">
+        <methods>
+          <include name="Login"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.amazontest.SignInPageTest -->
+    </classes>
+  </test> <!-- Amazon Test(failed) -->
+</suite> <!-- Failed suite [Amazon Application Test Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Application Test Suite" parallel="methods" thread-count="1" verbose="2">
+	<listeners>
+		<listener class-name="com.amazon.ExtentReportListener" />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="https://google.com"/>
+	
+	<test name="Amazon Test">
+		<classes>
+ 			<class name="com.amazontest.HomePageTest"></class>
+			<class name="com.amazontest.SignInPageTest"></class>
+			<class name="com.amazontest.SearchPageTest"></class>
+			<class name="com.amazontest.SearchResultsPageTest"></class>
+			<class name="com.amazontest.ProductPageTest"></class>
+			<class name="com.amazontest.AddressPageTest"></class>
+			<class name="com.amazontest.PaymentPageTest"></class>
+		</classes>
+	</test>
+</suite>
