@@ -1,0 +1,12 @@
+com\amazon\Util\AmazonTestUtil.class
+com\amazon\AmazonTestBase.class
+com\amazonpom\SearchPage.class
+com\amazonpom\PaymentPage.class
+com\amazonpom\SearchResultsPage.class
+com\amazon\ExtentReportListener.class
+com\amazonpom\ProductPage.class
+com\amazon\Util\WebEventListener.class
+com\amazon\ExtentManager.class
+com\amazonpom\SignInPage.class
+com\amazonpom\AddressPage.class
+com\amazonpom\HomePage.class

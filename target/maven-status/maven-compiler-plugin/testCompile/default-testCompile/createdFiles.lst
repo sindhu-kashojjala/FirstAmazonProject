@@ -1,0 +1,7 @@
+com\amazontest\ProductPageTest.class
+com\amazontest\SearchPageTest.class
+com\amazontest\SearchResultsPageTest.class
+com\amazontest\HomePageTest.class
+com\amazontest\PaymentPageTest.class
+com\amazontest\SignInPageTest.class
+com\amazontest\AddressPageTest.class

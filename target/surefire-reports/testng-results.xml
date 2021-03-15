@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-15T10:57:54Z" name="Amazon Application Test Suite" finished-at="2021-03-15T11:09:33Z" duration-ms="699138">
+    <groups>
+    </groups>
+    <test started-at="2021-03-15T10:57:54Z" name="Amazon Test" finished-at="2021-03-15T11:09:33Z" duration-ms="699138">
+      <class name="com.amazontest.ProductPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.ProductPageTest@38e79ae3]" started-at="2021-03-15T16:31:57Z" name="SetUp" finished-at="2021-03-15T16:32:45Z" duration-ms="47924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CheckProductPageTitle()[pri:0, instance:com.amazontest.ProductPageTest@38e79ae3]" started-at="2021-03-15T16:32:45Z" name="CheckProductPageTitle" finished-at="2021-03-15T16:32:45Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckProductPageTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.ProductPageTest@38e79ae3]" started-at="2021-03-15T16:32:46Z" name="TearDown" finished-at="2021-03-15T16:32:46Z" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.ProductPageTest@38e79ae3]" started-at="2021-03-15T16:32:46Z" name="SetUp" finished-at="2021-03-15T16:33:34Z" duration-ms="47289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="PurchaseRequiredProduct()[pri:0, instance:com.amazontest.ProductPageTest@38e79ae3]" started-at="2021-03-15T16:33:34Z" name="PurchaseRequiredProduct" finished-at="2021-03-15T16:34:55Z" duration-ms="81830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseRequiredProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.ProductPageTest@38e79ae3]" started-at="2021-03-15T16:34:56Z" name="TearDown" finished-at="2021-03-15T16:34:56Z" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazontest.ProductPageTest -->
+      <class name="com.amazontest.SearchResultsPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.SearchResultsPageTest@1dac5ef]" started-at="2021-03-15T16:30:14Z" name="SetUp" finished-at="2021-03-15T16:30:49Z" duration-ms="34817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CheckSearchResultsPageTitle()[pri:0, instance:com.amazontest.SearchResultsPageTest@1dac5ef]" started-at="2021-03-15T16:30:49Z" name="CheckSearchResultsPageTitle" finished-at="2021-03-15T16:30:49Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchResultsPageTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.SearchResultsPageTest@1dac5ef]" started-at="2021-03-15T16:30:50Z" name="TearDown" finished-at="2021-03-15T16:30:50Z" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.SearchResultsPageTest@1dac5ef]" started-at="2021-03-15T16:30:50Z" name="SetUp" finished-at="2021-03-15T16:31:56Z" duration-ms="65771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LaunchProduct()[pri:0, instance:com.amazontest.SearchResultsPageTest@1dac5ef]" started-at="2021-03-15T16:31:56Z" name="LaunchProduct" finished-at="2021-03-15T16:31:56Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.SearchResultsPageTest@1dac5ef]" started-at="2021-03-15T16:31:57Z" name="TearDown" finished-at="2021-03-15T16:31:57Z" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazontest.SearchResultsPageTest -->
+      <class name="com.amazontest.SignInPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.SignInPageTest@77f80c04]" started-at="2021-03-15T16:28:17Z" name="SetUp" finished-at="2021-03-15T16:28:31Z" duration-ms="13860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CheckSignInPageTitle()[pri:0, instance:com.amazontest.SignInPageTest@77f80c04]" started-at="2021-03-15T16:28:31Z" name="CheckSignInPageTitle" finished-at="2021-03-15T16:28:31Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSignInPageTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.SignInPageTest@77f80c04]" started-at="2021-03-15T16:28:31Z" name="TearDown" finished-at="2021-03-15T16:28:32Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.SignInPageTest@77f80c04]" started-at="2021-03-15T16:28:32Z" name="SetUp" finished-at="2021-03-15T16:28:49Z" duration-ms="16810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Login()[pri:0, instance:com.amazontest.SignInPageTest@77f80c04]" started-at="2021-03-15T16:28:49Z" name="Login" finished-at="2021-03-15T16:28:51Z" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.SignInPageTest@77f80c04]" started-at="2021-03-15T16:29:00Z" name="TearDown" finished-at="2021-03-15T16:29:01Z" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazontest.SignInPageTest -->
+      <class name="com.amazontest.SearchPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.SearchPageTest@58ea606c]" started-at="2021-03-15T16:29:01Z" name="SetUp" finished-at="2021-03-15T16:29:21Z" duration-ms="20122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CheckSearchPageTitle()[pri:0, instance:com.amazontest.SearchPageTest@58ea606c]" started-at="2021-03-15T16:29:21Z" name="CheckSearchPageTitle" finished-at="2021-03-15T16:29:32Z" duration-ms="11389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchPageTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.SearchPageTest@58ea606c]" started-at="2021-03-15T16:29:33Z" name="TearDown" finished-at="2021-03-15T16:29:33Z" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.SearchPageTest@58ea606c]" started-at="2021-03-15T16:29:33Z" name="SetUp" finished-at="2021-03-15T16:29:57Z" duration-ms="23793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchRequiredProduct()[pri:0, instance:com.amazontest.SearchPageTest@58ea606c]" started-at="2021-03-15T16:29:57Z" name="SearchRequiredProduct" finished-at="2021-03-15T16:30:13Z" duration-ms="16098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchRequiredProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.SearchPageTest@58ea606c]" started-at="2021-03-15T16:30:14Z" name="TearDown" finished-at="2021-03-15T16:30:14Z" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazontest.SearchPageTest -->
+      <class name="com.amazontest.PaymentPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.PaymentPageTest@1e178745]" started-at="2021-03-15T16:37:05Z" name="SetUp" finished-at="2021-03-15T16:38:06Z" duration-ms="61770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CheckPaymentPageTitle()[pri:0, instance:com.amazontest.PaymentPageTest@1e178745]" started-at="2021-03-15T16:38:06Z" name="CheckPaymentPageTitle" finished-at="2021-03-15T16:38:06Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPaymentPageTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.PaymentPageTest@1e178745]" started-at="2021-03-15T16:38:07Z" name="TearDown" finished-at="2021-03-15T16:38:07Z" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.PaymentPageTest@1e178745]" started-at="2021-03-15T16:38:07Z" name="SetUp" finished-at="2021-03-15T16:39:32Z" duration-ms="84395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="EnterPaymentDetails()[pri:0, instance:com.amazontest.PaymentPageTest@1e178745]" started-at="2021-03-15T16:39:32Z" name="EnterPaymentDetails" finished-at="2021-03-15T16:39:32Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPaymentDetails -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.PaymentPageTest@1e178745]" started-at="2021-03-15T16:39:32Z" name="TearDown" finished-at="2021-03-15T16:39:33Z" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazontest.PaymentPageTest -->
+      <class name="com.amazontest.AddressPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.AddressPageTest@5c90e579]" started-at="2021-03-15T16:34:56Z" name="SetUp" finished-at="2021-03-15T16:36:02Z" duration-ms="65630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CheckAddressPageTitle()[pri:0, instance:com.amazontest.AddressPageTest@5c90e579]" started-at="2021-03-15T16:36:02Z" name="CheckAddressPageTitle" finished-at="2021-03-15T16:36:02Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddressPageTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.AddressPageTest@5c90e579]" started-at="2021-03-15T16:36:02Z" name="TearDown" finished-at="2021-03-15T16:36:03Z" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.AddressPageTest@5c90e579]" started-at="2021-03-15T16:36:03Z" name="SetUp" finished-at="2021-03-15T16:36:59Z" duration-ms="55534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ChooseDeliveryAddress()[pri:0, instance:com.amazontest.AddressPageTest@5c90e579]" started-at="2021-03-15T16:36:59Z" name="ChooseDeliveryAddress" finished-at="2021-03-15T16:37:04Z" duration-ms="4896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseDeliveryAddress -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.AddressPageTest@5c90e579]" started-at="2021-03-15T16:37:04Z" name="TearDown" finished-at="2021-03-15T16:37:05Z" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazontest.AddressPageTest -->
+      <class name="com.amazontest.HomePageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.HomePageTest@6f45df59]" started-at="2021-03-15T16:27:54Z" name="SetUp" finished-at="2021-03-15T16:28:03Z" duration-ms="8565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CheckHomePageTitleTest()[pri:0, instance:com.amazontest.HomePageTest@6f45df59]" started-at="2021-03-15T16:28:03Z" name="CheckHomePageTitleTest" finished-at="2021-03-15T16:28:03Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePageTitleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.HomePageTest@6f45df59]" started-at="2021-03-15T16:28:03Z" name="TearDown" finished-at="2021-03-15T16:28:05Z" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.amazontest.HomePageTest@6f45df59]" started-at="2021-03-15T16:28:05Z" name="SetUp" finished-at="2021-03-15T16:28:14Z" duration-ms="9206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ClicktoSignIn()[pri:0, instance:com.amazontest.HomePageTest@6f45df59]" started-at="2021-03-15T16:28:14Z" name="ClicktoSignIn" finished-at="2021-03-15T16:28:16Z" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClicktoSignIn -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazontest.HomePageTest@6f45df59]" started-at="2021-03-15T16:28:16Z" name="TearDown" finished-at="2021-03-15T16:28:17Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazontest.HomePageTest -->
+    </test> <!-- Amazon Test -->
+  </suite> <!-- Amazon Application Test Suite -->
+</testng-results>

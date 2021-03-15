@@ -8,7 +8,7 @@ import com.amazon.AmazonTestBase;
 
 public class SearchResultsPage extends AmazonTestBase{
 	
-	@FindBy(xpath="//span[contains(text(),'Redmi 9 (Sky Blue, 4GB RAM, 64GB Storage)')]")
+	@FindBy(xpath="//span[@class='a-size-medium a-color-base a-text-normal' and contains(text(),'Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)')]")
 	WebElement ProductPath;
 	
 	public SearchResultsPage() {
